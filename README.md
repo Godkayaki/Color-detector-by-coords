@@ -1,8 +1,8 @@
 # Color-detector-by-coords
 
 ## Requirements
-- Python3.x or more.
-- Pillow library.
+- Python3.x or more: https://www.python.org/downloads/
+- Pillow library: https://pillow.readthedocs.io/en/stable/installation.html
 
 ## How it works
 This code works around finding the coordinates of the upper left corner of a red rectangle, straight or inclined.
