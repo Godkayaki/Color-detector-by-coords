@@ -15,7 +15,7 @@ a master.dpl file.
 After that you can just read the file and user creacio_imtages.py to try and paste an image on all the rectangles found.
 
 ## Example
-![tmp-0](https://user-images.githubusercontent.com/48527821/102594852-0e020a00-4117-11eb-94f1-ccabb93b4457.png)  
+![102594852-0e020a00-4117-11eb-94f1-ccabb93b4457](https://user-images.githubusercontent.com/48527821/102651580-138a3f00-416d-11eb-864f-608bcd657da3.png)  
 The black dots represent the coordinates I would get in this case, I also would get the inclination angle of the image
 and the width and height of the inclination. In case of pasting an image to that template you will need to first inclinate
 the image and then resize the image using the new width and height values from the master.dpl file.
