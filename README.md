@@ -4,6 +4,9 @@
 - Python3.x or more: https://www.python.org/downloads/
 - Pillow library: https://pillow.readthedocs.io/en/stable/installation.html
 
+## What is this
+A colored rectangle finder using coords with Pillow.
+
 ## How it works
 This code works around finding the coordinates of the upper left corner of a red rectangle, straight or inclined.
 I iterates over x (which is the width) and on every x it iterates over the columns y (height). The moment the code finds
