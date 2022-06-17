@@ -19,7 +19,7 @@ import pathlib
 from PIL import Image, ImageDraw
 
 path_script = str(pathlib.Path(__file__).parent.absolute()) + "/folder_creation.sh"
-home_img = expanduser("~") + "/Image_creation_tool"
+home_img = os.path.expanduser("~") + "/Image_creation_tool"
 
 #funcio per crear la carpeta on anira el fitxer master 
 def create_folder(path):
@@ -35,7 +35,7 @@ lineas = ""
 COLOR_IMATGE = "bn"
 
 #Plantilla sobre la que executar la creacio del fitxer master.
-plantilla = Image.open(home_img+"img_name.png")
+plantilla = Image.open(home_img+"/img_name.png")
 #plantilla = Image.open("/path/to/the/image/you/want/to/analyze")
 print(plantilla.size[0], plantilla.size[1])
 
